@@ -1,0 +1,439 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  text-align: right;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+.header > ul {
+  margin: 0;
+  list-style-type: none;
+  color: white;
+}
+.header > ul > li { display: inline-block;}
+
+#header {
+background-color: black;
+text-align: right;
+
+}
+
+#compra {
+display: inline-block;
+color: yellow;
+padding: 1em;
+}
+
+#compra > i {
+font-size: 30px;
+color: white;
+}
+
+
+
+#crown {
+position: relative;
+background-color: #20201f;
+color: yellow;
+padding-left: 2em;
+padding: 1em;
+z-index: 1;
+}
+
+
+
+#crown i {
+font-size: 60px;
+padding: 30px;
+}
+
+.menu {
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: right;
+}
+
+.menu > ul {
+  margin: 0;
+  list-style-type: none;
+}
+.menu > ul > li {
+  padding: 1em;
+  display: inline-block;
+}
+
+#barra {
+  padding: 1em;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  padding-right: 10em;
+  padding-left: 10em;
+  padding-bottom: 0;
+  margin-left: 20em;
+  top: 12.5em;
+  border: thin solid grey;
+}
+
+#barra ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#barra li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-right: thin solid black;
+  text-align: center;
+}
+
+#barra i {
+  display: block;
+}
+
+#white-icon {
+  color: white;
+}
+
+#browser {
+position: relative;
+z-index: 1;
+margin: 0;
+}
+
+#browser > img {
+width: 100%;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  /* background-color: #20201f; */
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 1em;
+}
+
+
+#white {
+color: white;
+font-size: 30px;
+}
+
+.field {
+
+  position:relative;
+  width:70%;
+  margin: 0 auto;
+  margin-top: 4em;
+  opacity: 1 !important;
+}
+
+
+
+.field>button {
+  padding:0.8em 1.2em;
+  background-color:yellow;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  border:none;
+}
+#specialize {
+  padding: 1em;
+  background-image: url(pared1.jpg);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#specialize h3 {
+font-size: 35px;
+}
+
+#specialize p {
+font-size: 20px;
+}
+
+#summary {
+  display: grid;
+  padding: 1em 8em;
+  text-align: center;
+}
+
+.summary-carts {
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+.summary-carts > i {
+font-size: 70px;
+color: #5ad651;
+text-align: center;
+}
+
+.summary-carts > h3 {
+text-align: center;
+}
+
+.summary-carts  img {
+}
+
+.summary-carts  h2 {
+text-align: center;
+color: blue;
+}
+
+.summary-carts  h1 {
+text-align: center;
+
+}
+
+.checks {
+  background-color: #bbb6b3;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  padding: 1em;
+
+}
+
+.checks ul{
+list-style: none;
+display: inline-block;
+}
+
+.grid {
+  padding: 1em;
+  font-weight: bold;
+}
+
+.grid i {
+  color: yellow;
+  background-color: black;
+}
+
+.grid-text {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#advantages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em 8em;
+}
+
+.carts {
+  padding: 1em;
+  margin: 1em;
+  display: inline-grid;
+  text-align: center;
+}
+
+.carts > i {
+font-size: 70px;
+color: #d2b000;
+text-align: center;
+}
+
+.carts > h3 {
+text-align: center;
+}
+
+#coments {
+background-color: #bbb6b3;
+padding: 4em;
+}
+
+#texto {
+position: relative;
+grid-template-columns: 1fr 1fr;
+display: grid;
+padding: 1em;
+background-color:  #bbb6b3;
+border-top: thin solid black;
+margin-top: 2.5em;
+}
+
+.mucho_texto {
+position: relative;
+background-color: white;
+padding: 5em;
+margin: 4em;
+padding-bottom: 1em;
+}
+
+
+
+#izquierda {
+  position: absolute;
+  background-color: grey;
+  top: 1em;
+  left: 0em;
+  float: left;
+  font-size: 3em;
+  color: white;
+  padding: 8px;
+}
+
+
+#derecha {
+  position: absolute;
+  background-color: grey;
+  top: 1em;
+  left: 0em;
+  float: left;
+  font-size: 3em;
+  color: white;
+  padding: 8px;
+}
+
+#flechita1 {
+  position: absolute;
+  bottom: -0.5em;
+  left: 1em;
+  font-size: 3em;
+  color: white;
+}
+
+#flechita2 {
+  position: absolute;
+  bottom: -0.5em;
+  left: 1em;
+  font-size: 3em;
+  color: white;
+}
+
+.stars {
+  margin-left: 4em;
+}
+
+.stars i {
+  color: #d2b000;
+}
+
+.name {
+  margin-left: 4em;
+}
+
+#gallery-main {
+  position: relative;
+
+}
+
+#gallery {
+  position: relative;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#gallery h4 {
+  font-weight: normal;
+  padding: 0.5em;
+}
+
+.scroll_horizontal {
+  padding: 2em;
+  margin: 4em;
+  margin-top: 0em;
+}
+
+.scroll_horizontal img {
+margin: 1em;
+margin-bottom: 0em;
+}
+
+div.scroll_horizontal {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll_horizontal a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scroll_horizontal a:hover {
+  background-color: white;
+}
+
+.check {
+  position: relative;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 2em;
+
+}
+
+
+
+.check > button {
+  position: relative;
+  text-align: center;
+  padding:0.8em 1.2em;
+  background-color:white;
+  color:grey;
+  font-weight: bold;
+  font-size: 20px;
+  border:thin solid black;
+}
+
+#footer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: #1e1b19;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul {
+  padding: 1em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer ul li {
+  padding: 0.5em;
+  list-style-type: none;
+  font-size: 20px;
+  }
+
+  #footer button {
+    position: relative;
+    text-align: center;
+    padding:0.8em 1.2em;
+    background-color:#1e1b19;
+    color:grey;
+    font-weight: bold;
+    font-size: 20px;
+    border:thin solid #d2b000;
+  }
+
+#amarillo {
+background-color: #d2b000;
+text-align: center;
+padding: 1em;
+}
+
+#amarillo h3 {
+  font-weight: normal;
+}
